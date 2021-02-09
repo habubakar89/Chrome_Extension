@@ -1,0 +1,16 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_title": "Make this page red"
+   },
+   "description": "Make the current page red",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr1ezydtJgdThw9e6cGVejOYXYwrfzbrNJvsbokT/NMxASNBubwUIWTnLTtxbFgJxdOCsjrBuOARxQgY2ToTPsAjnR/Tuyp8q/3hXLOS4a8WoLSMdKWAT1o9BD1jQpdPlzqkSp0Rw/gh55bR5gOXzAi5E4bmKY7TsQj5DITnoBCePeMN4ppTEy05qz7DpPgcB5kfQu6VQyoEvkcAnCqvCIY0SKf3C+lD+CNeVmTZN3WSYIFgM+BOfybDctPeZlWeBwYxh3hhwMfrigSFxLBBVuNQzLDdDsK7WfY3YWa6vgPblvx6sRTQsynVNLAOU3D76e4K59cVX4Lr3MP+NHwSwMQIDAQAB",
+   "manifest_version": 2,
+   "name": "Page Redder",
+   "permissions": [ "activeTab", "tabs"],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0"
+}
